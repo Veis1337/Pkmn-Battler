@@ -72,3 +72,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # React-Pkmn-Pagination-Practice
 # Pkmn-Battler
 # Pkmn-Battler
+
+
+User will be able to log in to their profile (Mongo/mongoose)
+User will have a username, unique ID (OAuth2), and win/loss record
+User will have a Current Team - Stays active until you lose.
+
+In order to battle, user will have to pick a randomized team of pokemon.
+They will have the option to pick from 1 of 3 randomized pokemon for each slot on their team.
+
+Enemy players will be randomly generated using Random User AI (https://randomuser.me/) + PokeAPI (https://pokeapi.co/)
+(Boss enemy players ever 3 wins???)
+
+For each pokemon, their Name, Type, Image, and Base Stats will be pulled from the API.
+Combat will be based off of Stat total, with a bonus if Type Advantage. 
+Pokemon combat - Each pokemon rolls their Base Stat +/- 30% and subtracts it from the enemy's Base Stat Total.
+                - Type of attack is randomized (Tyranitar would have 50% chance of using Rock attack, 50% chance of Dark)
+                - 30% damage bonus to super effective attack, 30% damage penalty to not very effective attack
+
+
+                
+
+
+
+
